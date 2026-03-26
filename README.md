@@ -39,16 +39,16 @@ Every `.cpp` file follows this structure:
 
 ```cpp
 /*
- * Problem : Two Sum (#1)
- * Difficulty: Easy
- * Topic    : Arrays | Pattern: Hash Map
- * Time     : O(n)   | Space: O(n)
- *
- * Insight  : Store each element's complement in an unordered_map
- *            during a single pass. Avoids the O(n²) brute force entirely.
- *
- * Alt.     : Sort + two pointers → O(n log n) time, O(1) space.
- *            Trade-off: destroys original indices.
+    Problem : Two Sum (#1)
+    Difficulty: Easy
+    Topic    : Arrays | Pattern: Hash Map
+    Time     : O(n)   | Space: O(n)
+ 
+    Insight  : Store each element's complement in an unordered_map
+              during a single pass. Avoids the O(n²) brute force entirely.
+ 
+    Alt.     : Sort + two pointers → O(n log n) time, O(1) space.
+              Trade-off: destroys original indices.
  */
 ```
 
