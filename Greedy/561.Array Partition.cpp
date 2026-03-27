@@ -4,7 +4,7 @@ public:
 
         vector<int> freq(20001, 0);
 
-        // Count frequencies
+        // Count the frequencies
         for(int num : nums){
             freq[num + 10000]++;
         }
